@@ -28,7 +28,7 @@ body{
     padding: 1rem;
 }
 
-button{
+.btn-cards{
     font-family: 'Lexend Deca', 'Sans serif';
     margin-top: 4rem;
     border-radius: 2rem;
@@ -38,26 +38,26 @@ button{
     background-color: hsl(0, 0%, 95%);
 }
 
-.sedan .btn:hover{
+.card-sedan .btn:hover{
     background-color: transparent;
     color: #fff;
 }
 
-.suvs .btn:hover{
+.card-suvs .btn:hover{
     background-color: transparent;
     color: #fff; 
 }
 
-.luxury .btn:hover{
+.card-luxury .btn:hover{
     background-color: transparent;
     color: #fff;  
 }
 
-.card{
+.card-container{
     padding: 45px;
 }
 
-.card  img{
+.card-container  img{
     margin-bottom: 1rem;    
 }
 
@@ -74,34 +74,31 @@ p{
 }
 
 
-.sedan{
+.card-sedan{
     background-color: hsl(31, 77%, 52%);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    /* min-height: 50vh; */
 }
 
-.sedan .btn{
+.card-sedan .btn-cards{
     color: hsl(31, 77%, 52%);;
 }
 
-.suvs{
+.card-suvs{
     background-color: hsl(184, 100%, 22%);
-    /* min-height: 50vh; */
 }
 
-.suvs .btn{
+.card-suvs .btn-cards{
     color: hsl(184, 100%, 22%);
 }
 
-.luxury{
+.card-luxury{
     background-color: hsl(179, 100%, 13%);
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    /* min-height: 50vh; */
 }
 
-.luxury .btn{
+.card-luxury .btn-cards{
     color:hsl(179, 100%, 13%);
 }
 
@@ -112,25 +109,21 @@ p{
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        max-width: 50vw;
-    }
-/* 
-    .card{
-        padding: 68px;
-    } */
+        max-width: 50rem;
+        }
 
-    .sedan{
+    .card-sedan{
         border-top-left-radius: 10px;
         border-top-right-radius: 0;
         border-bottom-left-radius: 10px;
         min-height: 29rem;      
     }
 
-    .suvs{
+    .card-suvs{
         min-height: 29rem;
     }
 
-    .luxury{
+    .card-luxury{
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
         border-bottom-left-radius: 0;

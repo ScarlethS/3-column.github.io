@@ -26,11 +26,11 @@ In this challenge I reviewed the semantic HTML markup, and I learned the base of
 
 My project deployed, you can find below:
 
-[Github Pages](https://scarleths.github.io/3-column.github.io/)
+[3-column preview card component](https://scarleths.github.io/3-column.github.io/)
 ## Feedback
 
 I completed this challenge, however, if you consider a better way to build this challenge or I need to fix any bug in my code, Please feel free to provide feedbacks.
 
-[Github Repository](https://github.com/ScarlethS/3-column.github.io)
+[3-column preview card component - Github Repository](https://github.com/ScarlethS/3-column.github.io)
  
 
